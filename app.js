@@ -17,7 +17,7 @@ if(temp<0){
 }else{
     alert("It's a nice day outside");
     console.log("It's a nice day outside");
-}if(temp>60){
+}if(temp>=61){
     console.log("Please enter a valid temperature below 60 degrees");
     alert("Please enter a valid temperature below 60 degrees");
 }
